@@ -1,7 +1,7 @@
 // src/app/about/page.tsx
-import Nav from "@/site/Nav";
-import Footer from "@/site/Footer";
-import React from "react";
+import Nav from '@/site/Nav';
+import Footer from '@/site/Footer';
+import React from 'react';
 
 export default function About() {
   return (
@@ -15,7 +15,7 @@ export default function About() {
           <section>
             <h2 className="text-2xl font-semibold mb-2">My Story</h2>
             <p className="text-gray-700">
-              I'm a passionate Henna artist with a flair for creativity and design.
+              I&apos;m a passionate Henna artist with a flair for creativity and design.
               I create custom mehndi designs for special occasions and everyday beauty.
             </p>
             <h2 className="text-2xl font-semibold mt-6 mb-2">My Work</h2>
