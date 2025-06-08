@@ -71,9 +71,10 @@ export default function Nav({
                 'hidden xs:block',
               )}>
                 {renderLink('About', '/about')}
+                
                 {renderLink(siteDomainOrTitle, PATH_ROOT)}
               </div>
-            </div>
+            </div>]
             : []}
         />
       }
