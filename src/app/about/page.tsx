@@ -49,7 +49,7 @@ export default function About() {
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline group-hover:text-green-600 transition-colors"
                 >
-                  +91 9122276486
+                  Text me
                 </a>
               </li>
               <li className="flex items-center gap-3 group">
