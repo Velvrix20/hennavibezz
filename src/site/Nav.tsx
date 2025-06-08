@@ -71,8 +71,16 @@ export default function Nav({
                 'hidden xs:block',
               )}>
                 {renderLink('About', '/about')}
-                
-                {renderLink(siteDomainOrTitle, PATH_ROOT)}
+                <Link href="/">
+                  <img 
+                    src="/logo.png"
+                    alt="Hennavibezz logo"
+                    width={120}
+                    height={40}
+
+   className="object-contain"
+                    />
+                </Link>
               </div>
             </div>]
             : []}
