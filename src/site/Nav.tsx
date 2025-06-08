@@ -59,7 +59,7 @@ export default function Nav({
             ? [<div
               key="nav"
               className={clsx(
-                'flex items-center',
+                'flex items-center justify-between flex-wrap',
                 'w-full min-h-[4rem]',
               )}>
               <ViewSwitcher
@@ -67,12 +67,13 @@ export default function Nav({
                 showAdmin={isUserSignedIn}
               />
               <div className={clsx(
-                'flex-grow text-right text-ellipsis overflow-hidden',
+                'flex items-centre gap-4 text-right text-ellipsis overflow-hidden',
                 'hidden xs:block',
               )}>
+                {renderLink('About', '/about')}
                 {renderLink(siteDomainOrTitle, PATH_ROOT)}
               </div>
-            </div>]
+            </div>
             : []}
         />
       }
