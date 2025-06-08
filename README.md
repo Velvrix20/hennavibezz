@@ -1,10 +1,10 @@
-# 📷 `JD` Art Exhibition
+# Henna Vibezz
 
 Based on Sam Becker's [Exif Photo Blog](https://github.com/sambecker/exif-photo-blog)
 
 App link:
 -
-https://jeremydaniel.co
+https://hennavibezz.velvrix.site
 
 Features
 -
