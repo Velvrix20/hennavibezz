@@ -1,8 +1,6 @@
 // src/app/about/page.tsx
 'use client';
 
-import Nav from '@/site/Nav';
-import Footer from '@/site/Footer';
 import React from 'react';
 
 export default function About() {
@@ -78,8 +76,6 @@ export default function About() {
           </section>
         </div>
       </main>
-
-      <Footer />
     </>
   );
 }
