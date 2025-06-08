@@ -8,8 +8,6 @@ import React from 'react';
 export default function About() {
   return (
     <>
-      <Nav siteDomainOrTitle="HennaVibezz" />
-
       <main className="max-w-5xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-10 text-center">About Me</h1>
 
