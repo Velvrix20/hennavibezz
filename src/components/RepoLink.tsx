@@ -9,7 +9,7 @@ export default function RepoLink() {
         Made By
       </span>
       <Link
-        href="https://solomonlijo.com"
+        href="https://github.com/Velvrix20"
         target="_blank"
         className={clsx(
           'flex items-center gap-0.5',
@@ -17,7 +17,7 @@ export default function RepoLink() {
           'hover:underline',
         )}
       >
-        Solomon Shalom Lijo
+        Velvrix
       </Link>
     </span>
   );
