@@ -48,7 +48,6 @@ export default function About() {
           </section>
         </div>
       </main>
-      <Search />
       <Footer />
     </>
   );
