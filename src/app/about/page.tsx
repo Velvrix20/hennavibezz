@@ -1,13 +1,15 @@
 // src/app/about/page.tsx
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Search from "@/components/Search";
+import Nav from "@/site/Nav";
+import Footer from "@/site/Footer";
+import Search from "@/site/Search";
 import React from "react";
 
 export default function About() {
   return (
     <>
-      <Header />
+      <Nav
+        siteDomainOrTitle="HennaVibezz"
+        />
       <main className="max-w-5xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-6 text-center">About Me</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
