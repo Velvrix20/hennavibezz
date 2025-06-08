@@ -63,7 +63,7 @@ export default function About() {
                 <div className="flex flex-col">
                   <a
                     href="mailto:aahidakhan19@gmail.com"
-                    className=text-blue-600 hover:underline break-words group-hover:text-amber-700 transition-colors"
+                    className="text-blue-600 hover:underline break-words group-hover:text-amber-700 transition-colors"
                   >
                     aahidakhan19@gmail.com
                   </a>
