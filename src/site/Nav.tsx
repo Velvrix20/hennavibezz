@@ -74,7 +74,6 @@ export default function Nav({
                 <Link href="/">
                   <img 
                     src="/logo.png"
-                    alt="Hennavibezz logo"
                     width={120}
                     height={40}
 
