@@ -2,6 +2,7 @@
 'use client';
 
 import React from 'react';
+import {FaInstagram, FaWhatsapp, FaPhoneAlt, FaEnvelope} from 'react-icons/fa';
 
 export default function About() {
   return (
@@ -29,48 +30,50 @@ export default function About() {
           <section>
             <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
             <ul className="space-y-3 text-blue-600">
-              <li>
+              <li className="flex items-center gap-3 group">
+              <FaInstagram className="text-pink-600 text-xl shrink-0" />
                 <a
                   href="https://instagram.com/heena.vibezz"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:underline"
+                  className="text-blue-600 hover:underline group-hover:text-pink-600 transition-colors"
                 >
-                  Instagram: @heena.vibezz
+                  @heena.vibezz
                 </a>
               </li>
-              <li>
+              <li className="flex items-center gap-3 group">
+                <FaWhatsapp className="text-green-500 text-xl shrink-0" />
                 <a
                   href="https://wa.me/9122276486"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:underline"
+                  className="text-blue-600 hover:underline group-hover:text-green-600 transition-colors"
                 >
-                  WhatsApp: Chat with me
+                  +91 9122276486
                 </a>
               </li>
-              <li>
-                <a href="tel:9122276486" className="hover:underline">
-                  Phone: +91 9122276486
+              <li className="flex items-center gap-3 group">
+                <FaPhoneAlt className="text-blue-500 text-xl shrink-0" />
+                <a href="tel:9122276486" className="text-blue-600 hover:underline group-hover:text-blue-700 transition-colors">
+                  Call me
                 </a>
               </li>
-              <li>
-                <span className="block">
+              <li className="flex items-start gap-3 group">
+                <FaEnvelope className="text-gray-600 text-xl shrink-0 mt-1" />
+                <div className="flex flex-col">
                   <a
                     href="mailto:aahidakhan19@gmail.com"
-                    className="hover:underline break-words"
+                    className=text-blue-600 hover:underline break-words group-hover:text-amber-700 transition-colors"
                   >
                     aahidakhan19@gmail.com
                   </a>
-                </span>
-                <span className="block">
                   <a
                     href="mailto:hennavibezz@proton.me"
-                    className="hover:underline break-words"
+                    className=text-blue-600 hover:underline break-words group-hover:text-amber-700 transition-colors"
                   >
                     hennavibezz@proton.me
                   </a>
-                </span>
+                </div>
               </li>
             </ul>
           </section>
