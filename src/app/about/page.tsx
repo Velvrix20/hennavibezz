@@ -1,7 +1,6 @@
 // src/app/about/page.tsx
 import Nav from "@/site/Nav";
 import Footer from "@/site/Footer";
-import Search from "@/site/Search";
 import React from "react";
 
 export default function About() {
