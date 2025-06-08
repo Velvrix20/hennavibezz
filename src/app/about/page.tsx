@@ -69,7 +69,7 @@ export default function About() {
                   </a>
                   <a
                     href="mailto:hennavibezz@proton.me"
-                    className=text-blue-600 hover:underline break-words group-hover:text-amber-700 transition-colors"
+                    className="text-blue-600 hover:underline break-words group-hover:text-amber-700 transition-colors"
                   >
                     hennavibezz@proton.me
                   </a>
