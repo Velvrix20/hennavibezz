@@ -71,15 +71,6 @@ export default function Nav({
                 'hidden xs:block',
               )}>
                 {renderLink('About', '/about')}
-                <Link href="/">
-                  <img 
-                    src="/logo.png"
-                    width={120}
-                    height={40}
-
-   className="object-contain"
-                    />
-                </Link>
               </div>
             </div>]
             : []}
