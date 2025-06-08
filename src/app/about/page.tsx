@@ -8,7 +8,6 @@ export default function About() {
   return (
     <>
       <main className="max-w-5xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-10 text-center">About Me</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* My Story and Work */}
