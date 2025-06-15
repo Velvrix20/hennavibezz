@@ -32,12 +32,12 @@ export default function About() {
               <li className="flex items-center gap-3 group">
               <FaInstagram className="text-pink-600 text-xl shrink-0" />
                 <a
-                  href="https://instagram.com/heena.vibezz"
+                  href="https://instagram.com/henna_.vibezz"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-600 hover:underline group-hover:text-pink-600 transition-colors"
                 >
-                  @heena.vibezz
+                  @henna_.vibezz
                 </a>
               </li>
               <li className="flex items-center gap-3 group">
